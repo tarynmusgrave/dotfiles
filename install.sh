@@ -5,4 +5,4 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Update the zsh config
-ln -sf ~/dotfiles/.zshrc ~/.zshrc && . ~/.zshrc
+# ln -sf ~/dotfiles/.zshrc ~/.zshrc && . ~/.zshrc
