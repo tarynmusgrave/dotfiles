@@ -6,3 +6,7 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Update the zsh config
 # ln -sf ~/dotfiles/.zshrc ~/.zshrc && . ~/.zshrc
+
+cp zshrc ~/.zshrc
+
+tmux source-file ~/.tmux.conf
